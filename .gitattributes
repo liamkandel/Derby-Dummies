@@ -1,0 +1,63 @@
+# Normalize line endings on checkin; check out native
+* text=auto
+
+# Source / text files
+*.cs           text diff=csharp
+*.shader       text
+*.cginc        text
+*.hlsl         text
+*.compute      text
+*.uss          text
+*.uxml         text
+*.json         text
+*.md           text
+*.txt          text
+*.xml          text
+*.yml          text
+*.asmdef       text
+*.asmref       text
+*.inputactions text
+
+# Unity YAML assets: text, force LF so cross-platform diffs stay clean
+*.unity        text eol=lf
+*.prefab       text eol=lf
+*.asset        text eol=lf
+*.meta         text eol=lf
+*.mat          text eol=lf
+*.anim         text eol=lf
+*.controller   text eol=lf
+*.physicsMaterial  text eol=lf
+*.physicsMaterial2D text eol=lf
+
+# Binary assets (do not diff/merge as text). Move these to Git LFS
+# once git-lfs is installed on every machine.
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.gif   binary
+*.bmp   binary
+*.tga   binary
+*.tif   binary
+*.tiff  binary
+*.psd   binary
+*.exr   binary
+*.hdr   binary
+*.fbx   binary
+*.obj   binary
+*.blend binary
+*.dae   binary
+*.3ds   binary
+*.wav   binary
+*.mp3   binary
+*.ogg   binary
+*.aif   binary
+*.aiff  binary
+*.ttf   binary
+*.otf   binary
+*.dll   binary
+*.so    binary
+*.a     binary
+*.dylib binary
+*.wlt   binary
+*.cubemap binary
+*.unitypackage binary

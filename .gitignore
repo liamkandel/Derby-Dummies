@@ -1,0 +1,61 @@
+# ==================================
+# Unity generated / local-only
+# ==================================
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+[Rr]ecordings/
+
+# Asset Store tools, crash reports
+/[Aa]ssets/[Aa]sset[Ss]tore[Tt]ools*
+sysinfo.txt
+crashlytics-build.properties
+
+# ==================================
+# IDE / editor generated
+# ==================================
+.vs/
+.vscode/
+.idea/
+.vsconfig
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# ==================================
+# Build outputs / packaged files
+# ==================================
+*.apk
+*.aab
+*.app
+*.ipa
+*.unitypackage
+*.unitypackage.meta
+
+# ==================================
+# OS junk
+# ==================================
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+Desktop.ini
